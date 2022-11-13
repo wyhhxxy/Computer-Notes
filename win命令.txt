@@ -1,0 +1,80 @@
+创建txt快捷方式
+1. 注册表  regedit
+2.  在HKEY_CLASSES_ROOT 里面查找 C:\Windows\system32\notepad.exe,-469
+3. 修改为 q文本文档
+
+程序卸载  appwiz.cpl
+网络连接  ncpa.cpl
+远程连接 mstsc
+打开或关闭win功能  optionalFeatures
+计算器 calc
+计算机管理 compmgmt.msc
+设备管理器  devmgmt.msc
+IP地址检测器  Nslookup
+软键盘 osk
+计算机性能监测程序  perfmon.msc
+创建共享文件夹   shrpubw
+任务管理器  taskmgr
+系统信息配置   dxdiag
+磁盘分区管理 diskmgmt.msc
+检查win版本 winver
+组策略  gpedit.msc
+安全组  secpol.msc
+cmd 里面查看电脑属性  systeminfo
+
+查路由表： route print
+谷歌： chrome://flags/#enable-force-dark
+主机hosts:  C:\Windows\System32\drivers\etc
+
+ping  错误提示：
+找不到主机--- 无法解析域名
+请求超时   --- 目标主机禁止ping 
+传输失败   ---  主机网络问题
+
+arp 
+-a 
+-d
+-s  IP MAC 
+
+tracert 
+-d
+
+route
+route print 
+Route add 172.16.1.1 mask 255.255.255.255 192.168.4.2
+–p  永久路由
+route  delete 172.16.1.1
+
+ipconfig
+ipconfig /all
+ipconfig -release
+ipconfig /renew
+ipconfig /displaydns
+ipconfig /flushdns
+
+netstat
+-a
+-n 
+-o 
+-ano
+-p tcp
+
+powercfg /batteryreport /output "C:\battery-report.html"
+
+fn +f1 睡眠
+fn + f4  打开浏览器
+fn +f7 关闭显示器
+fn + f8 投影
+fn + f9 笔记本触摸屏开启或关闭
+fn + f10 静音
+
+
+C ,D, E 盘切换 
+进入cmd 后输入 D: 
+就切换到D盘 了
+
+
+
+
+
+
